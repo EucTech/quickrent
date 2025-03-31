@@ -3,6 +3,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-tcolor: #39466d;
+  --color-tgreen: #27b737;
+  --color-tdeepblue: #1A2340;
+  --color-tblue: #0d6efd; 
+  --color-tblue-2: #1E73BE;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
