@@ -9,7 +9,20 @@
   --color-tdeepblue: #1A2340;
   --color-tblue: #0d6efd; 
   --color-tblue-2: #1E73BE;
+  --color-tlightblue: #E8EFFF;
+  --color-tlightbg: #F5FAFF;
 }
+
+
+@layer utilities {
+   .bg-image {
+    background-image: url('/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+}
+
 
 @theme inline {
   --color-background: var(--background);
