@@ -6,7 +6,8 @@ import { FaRegUser } from "react-icons/fa";
 import Link from "next/link";
 import { Images } from "@/assets";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 const Navbar = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed z-50 w-full h-[5em] bg-white/80 backdrop-blur-lg flex items-center px-5 md:px-10 lg:px-24 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] "
+    <div className="fixed z-50 w-full h-[5em] bg-white/70 backdrop-blur-md flex items-center px-5 md:px-10 lg:px-24 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] "
     >
       <div className="w-full flex items-center gap-10">
         <Link href="/">
@@ -74,6 +75,10 @@ const Navbar = () => {
             </Button>
           </SheetTrigger>
           <SheetContent side="left">
+          <VisuallyHidden>
+            <SheetTitle>Navbar List</SheetTitle>
+            <SheetDescription>Navbar List</SheetDescription>
+          </VisuallyHidden>
             <div className="grid gap-4 py-20 px-6">
               <ul className=" flex flex-col gap-6 text-tcolor font-[500]">
                 <Link className="hover:text-tblue-2" href="/">
