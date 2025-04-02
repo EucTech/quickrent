@@ -18,7 +18,9 @@ const LayoutWrapper: React.FC<LayoutWrapperProps> = ({ children }) => {
       ) : (
         <>
           <Navbar />
+          <div className="pt-[5em]">
           {children}
+          </div>
           <Footer />
         </>
       )}
