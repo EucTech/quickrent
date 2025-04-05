@@ -18,6 +18,7 @@ interface PropertyPropsType {
   propertyMeter: string;
   location: string;
   images: string[];
+  className?: string;
 }
 
 const PropertyProps: React.FC<PropertyPropsType> = ({
@@ -29,11 +30,12 @@ const PropertyProps: React.FC<PropertyPropsType> = ({
   propertyMeter,
   location,
   images,
+  className
 }) => {
   const truncatedText =
     title.length > 30 ? title.substring(0, 30) + "..." : title;
   return (
-    <div className=" w-[100%] sm:w-[70%] md:w-[23em] h-fit sm:h-[27em] group rounded-md shadow-2xl overflow-hidden">
+    <div className={`w-[100%] sm:w-[70%] md:w-[22em] h-fit sm:h-[27em] group rounded-md shadow-2xl overflow-hidden ${className}`}>
       <Swiper
         navigation={{
           nextEl: ".custom-next",

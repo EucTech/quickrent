@@ -12,6 +12,17 @@ import {Images} from "../assets/index";
   images: string[];
 }
 
+ interface FeaturedPropsType {
+  listingType: string;
+  title: string;
+  price: string;
+  numOfBeds: string;
+  numOfBaths: string;
+  propertyMeter: string;
+  location: string;
+  image: string;
+}
+
 interface FindByLocationPropsType {
     image: string;
     location: string;
@@ -197,5 +208,89 @@ export const FindByLocationData: FindByLocationPropsType[] = [
         image: Images.house8.src,
         location: "Paris, France",
         numOfProperties: "9",
+    },
+]
+
+
+export const FeaturedData: FeaturedPropsType[] = [
+    {
+        listingType: "Sale",
+        title: "Luxury Villa in Bali",
+        price: "3,500,000",
+        numOfBeds: "5",
+        numOfBaths: "4",
+        propertyMeter: "450 ",
+        location: "Bali, Indonesia",
+        image: Images.house1.src,
+    },
+    {
+        listingType: "Rent",
+        title: "Penthouse in Manhattan",
+        price: "15,000",
+        numOfBeds: "4",
+        numOfBaths: "3",
+        propertyMeter: "300 ",
+        location: "New York, USA",
+        image: Images.house2.src,
+    },
+    {
+        listingType: "Sale",
+        title: "Charming Cottage in the Countryside",
+        price: "800,000",
+        numOfBeds: "3",
+        numOfBaths: "2",
+        propertyMeter: "200 ",
+        location: "Kent, UK",
+        image: Images.house3.src,
+    },
+    {
+        listingType: "Rent",
+        title: "Modern Loft in Downtown",
+        price: "4,000",
+        numOfBeds: "2",
+        numOfBaths: "2",
+        propertyMeter: "120 ",
+        location: "Chicago, USA",
+        image: Images.house4.src,
+    },
+    {
+        listingType: "Sale",
+        title: "Seaside Villa in Amalfi Coast",
+        price: "6,000,000",
+        numOfBeds: "6",
+        numOfBaths: "5",
+        propertyMeter: "550 ",
+        location: "Amalfi Coast, Italy",
+        image: Images.house5.src,
+    },
+    {
+        listingType: "Rent",
+        title: "Stylish Apartment in Barcelona",
+        price: "3,500",
+        numOfBeds: "3",
+        numOfBaths: "2",
+        propertyMeter: "150 ",
+        location: "Barcelona, Spain",
+        image: Images.house6.src,
+    },
+    {
+        listingType: "Sale",
+        title: "Elegant Mansion in Beverly Hills",
+        price: "10,000,000",
+        numOfBeds: "7",
+        numOfBaths: "8",
+        propertyMeter: "1000 ",
+        location: "Beverly Hills, USA",
+        image: Images.house7.src,
+    },
+    {
+        listingType: "Rent",
+        title: "Cozy Cabin in the Woods",
+        price: "2,000",
+        numOfBeds: "2",
+        numOfBaths: "1",
+        propertyMeter: "80 ",
+        location: "Whistler, Canada",
+        image: Images.house8.src,
     },
 ]
