@@ -14,6 +14,17 @@ import house12 from "./images/house12.jpg";
 import house13 from "./images/house13.jpg";
 import house14 from "./images/house14.jpg";
 
+import customer1 from "./images/customer1.jpg";
+import customer2 from "./images/customer2.jpg";
+import customer3 from "./images/customer3.jpg";
+import customer4 from "./images/customer4.jpg";
+import customer5 from "./images/customer5.jpg";
+import customer6 from "./images/customer6.jpg";
+import customer7 from "./images/customer7.jpg";
+import customer8 from "./images/customer8.jpg";
+import customer9 from "./images/customer9.jpg";
+import customer10 from "./images/customer10.jpg";
+
 
 export const Images = { 
     logo,
@@ -31,5 +42,16 @@ export const Images = {
     house12,
     house13,
     house14,
+
+    customer1,
+    customer2,
+    customer3,
+    customer4,
+    customer5,
+    customer6,
+    customer7,
+    customer8,
+    customer9,
+    customer10,
 
 }
