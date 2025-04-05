@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Button } from "./ui/button";
 import { MdOutlineDomainAdd } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
@@ -10,18 +10,6 @@ import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from 
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 const Navbar = () => {
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setHasScrolled(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <div className="fixed z-50 w-full h-[5em] bg-white/70 backdrop-blur-md flex items-center px-5 md:px-10 lg:px-24 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] "
