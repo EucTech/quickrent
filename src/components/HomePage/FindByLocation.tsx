@@ -13,14 +13,14 @@ const FindByLocation = () => {
         </h2>
         <p className="text-[16px] font-normal text-tcolor">
           Explore a wide range of homes in your desired locations. Whether
-          you're looking for a luxury apartment, a cozy family home, or a modern
+          you&apos;re looking for a luxury apartment, a cozy family home, or a modern
           townhouse, we have the perfect property for you.
         </p>
       </div>
 
       <div className="flex flex-wrap items-center justify-center mt-10 mb-7 gap-y-10 gap-x-5 ">
         {
-            FindByLocationData.slice(0, 3).map((location, index) => (
+            FindByLocationData.slice(0, 6).map((location, index) => (
             <FindByLocationProps
               key={index}
               image={location.image}

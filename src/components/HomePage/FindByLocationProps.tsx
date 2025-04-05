@@ -1,4 +1,3 @@
-import { Images } from "@/assets";
 import Image from "next/image";
 import React from "react";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
