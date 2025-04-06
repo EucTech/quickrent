@@ -3,11 +3,9 @@ import { Bath, BedDouble, LocateFixed, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+
 
 interface FeaturedPropertyType {
   listingType: string;
