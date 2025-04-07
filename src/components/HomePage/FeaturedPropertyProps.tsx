@@ -53,7 +53,7 @@ const FeaturedPropertyProps: React.FC<FeaturedPropertyType> = ({
           <div className="w-full flex  gap-1 items-center justify-between ">
             <Link
               href={"#"}
-              className=" text-[13px] sm:text-[15px] font-semibold text-tdeepblue hover:text-tblue-2"
+              className=" text-[15px] font-semibold text-tdeepblue hover:text-tblue-2"
             >
               <h3>{truncatedText}</h3>
             </Link>
