@@ -1,5 +1,5 @@
 import React from "react";
-import PropertyProps from "./PropertyProps";
+import PropertyProps from "../PropertyProps";
 import { PropertyData } from "@/utils/dummyData";
 import { Button } from "../ui/button";
 import Link from "next/link";
