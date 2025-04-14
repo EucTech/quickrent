@@ -18,7 +18,7 @@ const LayoutWrapper: React.FC<LayoutWrapperProps> = ({ children }) => {
       ) : (
         <>
           <Navbar />
-          <div className="pt-[5em]">
+          <div className="pt-[5em] min-h-[calc(100vh-20vh)]">
           {children}
           </div>
           <Footer />
