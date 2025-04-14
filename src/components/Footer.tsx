@@ -71,10 +71,10 @@ const Footer = () => {
          <Link href="#" > <p className="">Terms of Use</p></Link>
         </div>
         <div className="flex items-center gap-4 ">
-        <GrFacebookOption className="hover:text-white text-[#bcc9f3a1]" />
-        <GrInstagram className="hover:text-white text-[#bcc9f3a1]" />
-        <GrTwitter className="hover:text-white text-[#bcc9f3a1]" />
-        <GrLinkedinOption className="hover:text-white text-[#bcc9f3a1]" />
+        <Link href="#"><GrFacebookOption className="hover:text-white text-[#bcc9f3a1]" /></Link>
+        <Link href="#"><GrInstagram className="hover:text-white text-[#bcc9f3a1]" /></Link>
+        <Link href="#"><GrTwitter className="hover:text-white text-[#bcc9f3a1]" /></Link>
+        <Link href="#"><GrLinkedinOption className="hover:text-white text-[#bcc9f3a1]" /></Link>
         </div>
       </div>
     </div>
