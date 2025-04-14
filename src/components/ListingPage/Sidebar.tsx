@@ -72,7 +72,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="sticky top-0 min-h-[20em] w-[20em] bg-white border border-[#dde7f7] rounded-sm p-6">
+    <div className=" sticky top-0 min-h-[20em] w-[20em] bg-white border border-[#dde7f7] rounded-sm p-6">
       <div className="relative w-full flex items-center h-14 cursor-text gap-3 bg-[#f7f9fc] border border-[#dde7f7] rounded-sm">
         <Search className="absolute cursor-default left-3 size-5 text-[#bbc9dd]" />
         <input
