@@ -11,11 +11,13 @@ import {
     PaginationPrevious,
   } from "@/components/ui/pagination"
 
+
+
 const AllListing = () => {
   return (
-    <div className='flex-1'>
-      <h2 className='font-bold text-tdeepblue text-[22px]'>Showing 2 of 18 Results</h2>
-      <div className=" w-full flex flex-wrap justify-start items-center mt-10 mb-7 gap-y-10 gap-x-5  ">
+    <div className='flex-1 justify-center'>
+     
+      <div className=" w-full flex flex-wrap lg:justify-start justify-center items-center mt-10 mb-7 gap-y-10 gap-x-5  ">
         {PropertyData.slice(0, 6).map((property, index) => (
           <PropertyProps
             key={index}
