@@ -1,8 +1,13 @@
+import ListingHeroSection from '@/components/ListingPage/ListingHeroSection'
+import ListingLayout from '@/components/ListingPage/ListingLayout'
 import React from 'react'
 
 const ListingPage = () => {
   return (
-    <div>ListingPage</div>
+    <div>
+      <ListingHeroSection/>
+      <ListingLayout/>
+    </div>
   )
 }
 
